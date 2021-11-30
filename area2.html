@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate area</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">Know the Area</nav>
+    <div>
+      <a class="back-button" href="/Areamain.html">Back to Area main</a>
+    </div>
+    <div>
+      <label class="label">Side1</label>
+      <input
+        type="number"
+        class="length"
+        min="0.0001"
+        step="0.00001"
+        required
+      />
+    </div>
+    <div>
+      <label class="label">Side2</label>
+      <input
+        type="number"
+        class="length"
+        min="0.0001"
+        step="0.00001"
+        required
+      />
+    </div>
+    <div>
+      <label class="label">Side3</label>
+      <input
+        type="number"
+        class="length"
+        min="0.0001"
+        step="0.00001"
+        required
+      />
+    </div>
+    <div class="btn">
+      <button class="button" id="calculate-button">Calculate area</button>
+    </div>
+    <div class="output" id="output"></div>
+
+    <script src="/area2.js"></script>
+  </body>
+</html>
